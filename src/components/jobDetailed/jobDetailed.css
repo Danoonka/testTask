@@ -105,8 +105,12 @@
         width: 100%
     }
 
-    .job_detail_heading{
+    .header .job_detail_heading{
         width: 100%;
+    }
+
+    .job_detail_heading{
+        width: 60%;
         grid-column-start: start;
         grid-column-end: end;
         grid-row-start: start;
