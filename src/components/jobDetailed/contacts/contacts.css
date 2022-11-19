@@ -1,0 +1,63 @@
+.map {
+    filter:  hue-rotate(200deg) grayscale(50%) invert(100%) contrast(100%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 282px;
+    height: 153px;
+    box-sizing: border-box;
+    margin-top: -50px;
+}
+
+.contacts_container{
+    width: 282px;
+    height: 305px;
+    border-radius: 8px;
+    background: #2A3047;
+}
+
+.circle{
+    background-color: #202336;
+    width: 150px;
+    height: 213px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+
+}
+
+.contacts_txt{
+    width: 282px;
+    padding: 25px 50px;
+
+}
+
+.contacts_txt_name{
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: -0.625px;
+    color: #E7EAF0;
+}
+
+.location_img{
+    margin-top: 5px;
+    width: 10px;
+    height: 15px;
+}
+
+.location_txt{
+    display: flex;
+}
+
+.contacts_txt_item{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #E8EBF3;
+}

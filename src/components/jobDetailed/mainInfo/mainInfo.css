@@ -1,0 +1,85 @@
+.job_detail_main_info_div{
+    margin-top: 37px;
+    display: grid;
+    grid-template-columns: [start] auto [frst] auto [scnd] auto [end];
+    grid-template-rows: [start] auto [frst] auto [end];
+    column-gap: 60px;
+}
+
+.job_detail_salary{
+    grid-column-start: scnd;
+    grid-column-end: end;
+    grid-row-start: start;
+    grid-row-end: end;
+}
+
+.job_detail_salary_text{
+    font-family: 'Proxima Nova',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+}
+
+.job_detail_salary_tips{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.5625px;
+    color: #3A4562;
+}
+
+.job_detail_date{
+    margin-top: 10px;
+    grid-column-start: start;
+    grid-column-end: frst;
+    grid-row-start: frst;
+    grid-row-end: end;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: -0.5625px;
+    color: rgba(56, 65, 93, 0.355988);
+}
+
+@media (max-width: 768px){
+    .job_detail_main_info_div{
+        row-gap: 5px;
+        margin-top: 35px;
+        display: grid;
+        grid-template-columns: [start] auto [frst] auto [end];
+        grid-template-rows: [start] auto [frst] auto [end];
+        column-gap: 50px;
+    }
+
+    .job_detail_title{
+        grid-column-start: start;
+        grid-column-end: end;
+        grid-row-start: start;
+        grid-row-end: frst;
+    }
+
+    .job_detail_salary{
+        grid-column-start: frst;
+        grid-column-end: end;
+        grid-row-start: frst;
+        grid-row-end: end;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .job_detail_salary_text{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .job_detail_salary_tips{
+        text-align: center;
+    }
+}

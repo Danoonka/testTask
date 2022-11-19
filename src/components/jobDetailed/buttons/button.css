@@ -1,0 +1,24 @@
+.button_apply{
+    margin-top: 57px;
+    padding: 18px 30px;
+    gap: 10px;
+    background: #384564;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border-color: #384564 ;
+    font-family: 'Proxima Nova', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height, or 133% */
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .button_div{
+        text-align: center;
+    }
+}

@@ -1,0 +1,35 @@
+.job_details_description_div{
+    margin-top: 10px;
+}
+
+.job_details_description_txt{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0;
+    color: #3A4562;
+    margin-bottom: 10px;
+}
+
+.job_details_description_headings{
+    margin-top: 37px;
+    margin-bottom: 10px;
+    font-family: 'Proxima Nova',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.625px;
+    color: #3A4562;
+}
+
+.job_details_description_txt_item:before{
+    content: "■";
+    opacity: 0.3;
+}
+
+.job_details_description_txt_item:last-child:before{
+    content: " ";
+}
