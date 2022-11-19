@@ -1,13 +1,13 @@
 import React from 'react';
 import {Link, useLocation} from "react-router-dom";
-import Button from "./buttons/Button";
-import TextFilter from "./textFilter/textFilter";
-import "./jobDetailed.css"
-import Contacts from "./contacts/Contacts";
-import Header from "./header/Header";
-import MainInfo from "./mainInfo/MainInfo";
-import AdditionalInfo from "./additionalInfo/AdditionalInfo";
-import AttachedImages from "../attachedImages/AttachedImages";
+import Button from "../components/jobDetailed/buttons/Button";
+import TextFilter from "../components/jobDetailed/textFilter/textFilter";
+import "../components/jobDetailed/jobDetailed.css"
+import Contacts from "../components/jobDetailed/contacts/Contacts";
+import Header from "../components/jobDetailed/header/Header";
+import MainInfo from "../components/jobDetailed/mainInfo/MainInfo";
+import AdditionalInfo from "../components/jobDetailed/additionalInfo/AdditionalInfo";
+import AttachedImages from "../components/attachedImages/AttachedImages";
 
 
 

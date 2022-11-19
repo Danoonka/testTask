@@ -1,14 +1,14 @@
 import * as React from "react";
 import {useRef, useState} from "react";
-import fetchData from "../../utils/fetchData";
-import './jobTile.css'
-import locationLogo from "../../assets/img.png"
-import star from "../../assets/img_1.png"
-import save from "../../assets/img_2.png"
-import getDuration from "../../utils/calculateDate"
+import fetchData from "../utils/fetchData";
+import '../components/jobTile/jobTile.css'
+import locationLogo from "../assets/img.png"
+import star from "../assets/img_1.png"
+import save from "../assets/img_2.png"
+import getDuration from "../utils/calculateDate"
 import {Link} from "react-router-dom";
-import {arrOfData} from "../../utils/zapaska";
-import Pagination from "./pagination/Pagination";
+import {arrOfData} from "../utils/zapaska";
+import Pagination from "../components/jobTile/pagination/Pagination";
 
 
 //const apiData = fetchData("https://api.json-generator.com/templates/ZM1r0eic3XEy/data?access_token=wm3gg940gy0xek1ld98uaizhz83c6rh2sir9f9fu");
